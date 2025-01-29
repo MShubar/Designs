@@ -1,0 +1,62 @@
+.cat-button {
+  padding: 20px 60px;
+  border-radius: 100px;
+  border: none;
+  background-color: #010825;
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  transition: all 1s ease;
+}
+
+.cat-text {
+  color: #fff;
+  font-size: 40px;
+  position: relative;
+  transition: all 1s ease;
+}
+
+.cat-body {
+  position: absolute;
+  background-color: orange;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  z-index: 1;
+}
+
+.cat-body:nth-of-type(2) {
+  width: 40px;
+  left: -5px;
+  bottom: 50px;
+}
+
+.cat-body:nth-of-type(3) {
+  background-color: #010825;
+  width: 5px;
+  left: 1px;
+  bottom: 65px;
+}
+.cat-body:nth-of-type(4) {
+  background-color: #010825;
+  width: 5px;
+  left: 10px;
+  bottom: 75px;
+}
+.cat-body:nth-of-type(5) {
+  border-bottom: 5px solid white;
+  border-radius: 0 0 50px 50px;
+  position: absolute;
+  rotate: -53deg;
+  width: 11px;
+  left: 10px;
+  bottom: 58px;
+}
+
+.cat-body:nth-of-type(6) {
+  background-color: blue;
+  width: 15px;
+  left: -5px;
+  bottom: 50px;
+  border-radius: 0 0 50px 50px;
+  rotate: 100deg;
+}
